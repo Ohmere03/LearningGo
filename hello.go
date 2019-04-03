@@ -2,9 +2,10 @@ package main
 
 import "fmt"
 
-
 var y = 43
+
 type apex string
+
 var test apex
 
 func main() {
@@ -17,13 +18,11 @@ func main() {
 	fmt.Print(test, "is of type ")
 	fmt.Printf("%T", test)
 
-
 }
 
 func secondFunction() {
 
 	fmt.Println("This is the second function, with y which has a value of", y)
-
 
 }
 

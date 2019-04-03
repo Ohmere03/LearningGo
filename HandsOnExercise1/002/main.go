@@ -1,4 +1,5 @@
 package main
+
 /*
 Use var to DECLARE three VARIABLES. The variables should have package level scope. Do not assign VALUES to the variables. Use the following IDENTIFIERS for the variables and make sure the variables are of the following TYPE (meaning they can store VALUES of that TYPE).
 identifier “x” type int
@@ -22,6 +23,6 @@ var z bool
 func main() {
 	//values print by declared values with noting else are zero values
 
-	fmt.Println(x,y,z)
+	fmt.Println(x, y, z)
 
 }

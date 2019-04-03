@@ -23,8 +23,10 @@ code: here’s the solution: https://play.golang.org/p/cj8RrYgBOD
 import "fmt"
 
 type gaming int
+
 var x gaming
 var y int
+
 func main() {
 	fmt.Println(x)
 	x = 42

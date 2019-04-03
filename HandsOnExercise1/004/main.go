@@ -19,7 +19,9 @@ code: here’s the solution: https://play.golang.org/p/snm4WuuYmG
 import "fmt"
 
 type gaming int
+
 var x gaming
+
 func main() {
 	fmt.Println(x)
 	x = 42
